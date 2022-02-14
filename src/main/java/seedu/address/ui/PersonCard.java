@@ -13,9 +13,6 @@ import seedu.address.model.person.Person;
  * An UI component that displays information of a {@code Person}.
  */
 public class PersonCard extends UiPart<Region> {
-    @FXML
-    private Label remark;
-
     private static final String FXML = "PersonListCard.fxml";
 
     /**
@@ -40,6 +37,8 @@ public class PersonCard extends UiPart<Region> {
     private Label address;
     @FXML
     private Label email;
+    @FXML
+    private Label remark;
     @FXML
     private FlowPane tags;
 
