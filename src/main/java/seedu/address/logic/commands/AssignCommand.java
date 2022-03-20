@@ -62,7 +62,7 @@ public class AssignCommand extends Command {
             model.updateFilteredPersonList(PREDICATE_SHOW_ALL_PERSONS);
         }
 
-        return new CommandResult(String.format(MESSAGE_SUCCESS, task + ", to student with ID: " + studentId));
+        return new CommandResult(String.format(MESSAGE_SUCCESS, task.getTaskName() + ", to student with ID: " + studentId));
     }
 
 }
