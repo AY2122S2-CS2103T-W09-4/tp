@@ -41,6 +41,8 @@ public class CommandTestUtil {
     public static final String VALID_TELEGRAM_HANDLE_BOB = "bobbb";
     public static final String VALID_EMAIL_AMY = "amy@example.com";
     public static final String VALID_EMAIL_BOB = "bob@example.com";
+    public static final String VALID_TASK_AMY = "Task A";
+    public static final String VALID_TASK_BOB = "Task B";
     public static final String VALID_INDEX = "1";
     public static final String VALID_TASK_NAME = "Valid Task";
 
@@ -56,6 +58,8 @@ public class CommandTestUtil {
     public static final String TELEGRAM_HANDLE_DESC_BOB = " " + PREFIX_TELEGRAM_HANDLE + VALID_TELEGRAM_HANDLE_BOB;
     public static final String EMAIL_DESC_AMY = " " + PREFIX_EMAIL + VALID_EMAIL_AMY;
     public static final String EMAIL_DESC_BOB = " " + PREFIX_EMAIL + VALID_EMAIL_BOB;
+    public static final String TASK_DESC_AMY = " " + PREFIX_TASK_NAME + VALID_TASK_AMY;
+    public static final String TASK_DESC_BOB = " " + PREFIX_TASK_NAME + VALID_TASK_BOB;
     public static final String INDEX_DESC = " " + PREFIX_INDEX + VALID_INDEX;
     public static final String TASK_NAME_DESC = " " + PREFIX_TASK_NAME + VALID_TASK_NAME;
 
@@ -67,6 +71,7 @@ public class CommandTestUtil {
     public static final String INVALID_TELEGRAM_HANDLE_DESC = " " + PREFIX_TELEGRAM_HANDLE
             + "xxx"; // telegramHandles should have 5 to 32 characters
     public static final String INVALID_EMAIL_DESC = " " + PREFIX_EMAIL + "bob!yahoo"; // missing '@' symbol
+    public static final String INVALID_TASK_DESC = " " + PREFIX_TASK_NAME + "*"; // '*' not allowed in task name
     public static final String INVALID_COMMAND_NAME = "poop";
     public static final String INVALID_INDEX = " " + PREFIX_INDEX + "index"; // alphabets and symbols not allowed
     public static final String INVALID_TASKNAME_DESC = " " + PREFIX_TASK_NAME + "T@sk"; // '@' not allowed in names
