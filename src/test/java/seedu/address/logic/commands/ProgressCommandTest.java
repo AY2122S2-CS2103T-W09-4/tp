@@ -69,8 +69,6 @@ public class ProgressCommandTest {
         expectedModel.addPerson(bensonCopy);
 
         assertCommandSuccess(progressCommand, model, expectedMessage, expectedModel);
-
-        // Case 3: all of the filtered students have/have not complete the task (mix of case 1 and 2).
     }
 
     @Test
