@@ -535,7 +535,7 @@ As seen in the Command Summary below, you can input `manual add` to view a short
 If you would like to learn more about a specific command, you can read more about it in the [Features](https://ay2122s2-cs2103t-w09-4.github.io/tp/UserGuide.html#features) section above!
 
 | Action            | Command Format                                                                                                                      | Example                                                                      |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------|-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | **Add**           | `add i/MATRICULATION_NO n/STUDENT_NAME m/MODULE_CODE [p/PHONE_NUMBER] [t/TELEGRAM_HANDLE] [e/EMAIL_ADDRESS] `                       | `add i/AXXXXXXXR n/john m/CS2103T p/98765432 t/johnnn e/e0123456@u.nus.edu`  |
 | **Delete**        | `delete STUDENT_INDEX...` (or) `delete i/STUDENT_ID`                                                                                | `delete 10` (or) `delete 10 20` (or) `delete i/AXXXXXXXR`                    |
 | **Delete Module** | `deleteModule m/MODULE_CODE`                                                                                                        | `deleteModule m/CS2100`                                                      |
